@@ -38,6 +38,16 @@ GIT
       rest-client (~> 1.8)
 
 GIT
+  remote: git://github.com/feedjira/feedjira.git
+  revision: e4370b1c1d6da9b58a9b2e2bb4f3ad0d59cde178
+  specs:
+    feedjira (2.0.0)
+      faraday (~> 0.9)
+      faraday_middleware (~> 0.9)
+      loofah (~> 2.0)
+      sax-machine (~> 1.0)
+
+GIT
   remote: git://github.com/lostisland/faraday_middleware.git
   revision: c5836ae55857272732b33eb0e0a98d60e995a376
   branch: master
@@ -214,11 +224,6 @@ GEM
     extlib (0.9.16)
     faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
-    feedjira (2.0.0)
-      faraday (~> 0.9)
-      faraday_middleware (~> 0.9)
-      loofah (~> 2.0)
-      sax-machine (~> 1.0)
     ffi (1.9.10)
     font-awesome-sass (4.3.2.1)
       sass (~> 3.2)
@@ -621,7 +626,7 @@ DEPENDENCIES
   evernote_oauth
   faraday (~> 0.9.0)
   faraday_middleware!
-  feedjira (~> 2.0)
+  feedjira!
   ffi (>= 1.9.4)
   font-awesome-sass (~> 4.3.2)
   forecast_io (~> 2.0.0)
